@@ -1,2 +1,0 @@
-# awshsm
-AWS HSM article
