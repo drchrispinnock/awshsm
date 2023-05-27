@@ -1,6 +1,6 @@
 # Setting up the Baker
 
-# Outline (Remove)
+## Outline (Remove)
 
 - VPC, EC2, Octez, node
 - VPC endpoint

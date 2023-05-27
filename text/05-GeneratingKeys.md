@@ -7,3 +7,4 @@
 - Extract the keys for safety
 - Share keys with remote signer user
 - tz3 hash extraction
+
