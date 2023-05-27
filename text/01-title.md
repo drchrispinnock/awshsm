@@ -11,12 +11,13 @@ colorlinks: true
 listings: true
 listings-disable-line-numbers: true
 ---
-<!-- Pandoc -->
-<!-- Blog Format
+<!-- Pandoc above, --- must be first line -->
+
+<!-- Jekyll Blog Format
 ---
 layout: post
-title: XXX
-date: 2023-04-20
+title: "Securing your Tezos baking key with Amazon CloudHSM"
+date: 2023-05-27
 type: post
 parent_id: '0'
 published: false
@@ -27,8 +28,9 @@ categories:
 - Tezos
 tags:
 - Tezos
-- Coinbase
+- HSM
 meta:
 permalink: "/tezos/awshsm/"
 ---
 -->
+
