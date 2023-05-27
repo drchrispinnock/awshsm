@@ -1,13 +1,8 @@
-
+- Adjust the title. e.g. 'your' doesn't sound right.
 - Test bed
 - Need to do a hands-on installation of Remote Signer on Amazon Linux 2
 - Need a better way to do Remote Signer passthrough
-
-"Best practice layout" in Cloud HSM guide
-
-References
-
-- CloudHSM developers guide
+- Mention "Best practice layout" in Cloud HSM guide
 
 Thks/Acks
 - Luke & Carl YB
