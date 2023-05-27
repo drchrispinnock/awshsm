@@ -1,4 +1,4 @@
-SOURCES=$(wildcard *.md)
+SOURCES=$(wildcard text/*.md)
 OBJECTS=article.pdf
 
 all:	$(OBJECTS)
