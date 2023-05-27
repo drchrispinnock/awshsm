@@ -1,3 +1,14 @@
+<!-- Pandoc -->
+---
+title: "Securing your Tezos baking key with Amazon CloudHSM"
+author: "Chris Pinnock and Fabrice Trutmann"
+date: "20230527"
+titlepage: false
+toc-own-page: true
+colorlinks: true
+listings: true
+listings-disable-line-numbers: true
+---
 
 <!-- Blog Format
 ---
@@ -19,7 +30,3 @@ meta:
 permalink: "/tezos/awshsm/"
 ---
 -->
-
-# Title
-
-## Abstract
