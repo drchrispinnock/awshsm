@@ -11,7 +11,7 @@ clean:
 
 %.pdf:	%.inter
 	@echo "=> Building $@"
-	@pandoc --from markdown+pipe_tables --template templates/eisvogel-cp.tex -N --toc --output=$@ --listings --no-highlight -f markdown+implicit_figures $<
+	@pandoc --from markdown+pipe_tables --template eisvogel-cp.tex -N --toc --output=$@ --listings --no-highlight -f markdown+implicit_figures $<
 
 
 
