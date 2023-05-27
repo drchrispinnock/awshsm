@@ -4,9 +4,9 @@ author: "Chris Pinnock and Fabrice Trutmann"
 date: "20230527"
 titlepage: true
 toc-own-page: true
-titlepage-color: ff00ff
+titlepage-color: ffffff
 titlepage-text-color: 546474
-titlepage-rule-color: 545dfa
+titlepage-rule-color: 0000fa
 colorlinks: true
 listings: true
 listings-disable-line-numbers: true
