@@ -7,3 +7,8 @@
 - Single-tenant product
 - Remote Signer
 - Costs
+
+
+
+![Architecture Diagram (XXX replace)](img/TempArchDiagram.png)
+
