@@ -4,3 +4,5 @@ Tezos is a proof-of-stake blockchain [TEZOS] in which the participants, called B
 
 In this paper we will describe how to set up a test Tezos node and baker with the key protected by CloudHSM. The architecture is very similar to the recommended CloudHSM architecture [AWSHSM] where an API Gateway and VPC Endpoint governs access to the HSM. In our use case, we will incorporate a Remote Signer system that can interpret the Tezos signing requests and send them to the HSM. The Signer also protects against "Double-Signing" and other unwanted operations.
 
+
+*The paper will describe infrastructure suitable for development use only. Although we will touch on some recommendations in the paper, if you wish to use an HSM in production, you will need to consider your own security model.*
