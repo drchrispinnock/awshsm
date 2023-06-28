@@ -1,6 +1,7 @@
+# About the Authors
+
+
+
 # Acknowledgements
 
-XXX
-
-<!-- The authors would like to thank Luke and Carl Youngblood who implemented one of the first Tezos baking systems with CloudHSM. Also to Roland Dowdeswell... -->
-
+The authors would like to thank Luke and Carl Youngblood who were instrumental in setting up the Tezos Foundation Baking system using CloudHSM. Much of their work influenced this paper. Also thanks to Roland Dowdeswell who contributed to the Remote Signer software.
