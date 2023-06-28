@@ -1,8 +1,12 @@
 # Preliminaries
 
+## XXX - Todo
+
+- We could simplify this by not using the API Gateway...
+
 ## Infrastructure design
 
-![Architecture Diagram](img/ArchtectureDiagram.png)
+![Architecture Diagram](img/ArchitectureDiagram.png)
 
 The Baker instance will reside in a public VPC and have Internet access. No incoming connections will be allowed. 
 
@@ -14,16 +18,18 @@ An API Gateway will be used to present the Remote Signer to other systems. We wi
 
 [^1]: This extends the best-practice described in the AWS CloudHSM documentation for protecting an HSM but is also a common technique in the AWS SysOps examination.
 
-XXX We could simplify this by not using the API Gateway...
+## VPCs
 
+We start by creating two VPCs.
 
-## EC2
+- Public VPC
+- Private VPC - needs a NAT Gateway
+- Peering between them
 
-- SSH key
--
-## Infrastructure and Networks
+## Keys and Bastion Hosts
 
-## Outline
+- Generate an EC2 SSH key
+- Cloud9
+- Bastion host in the public VPC
+- Bastion host in the private VPC
 
-- VPCs
-- Peering and interfaces (etc)
