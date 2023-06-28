@@ -6,3 +6,4 @@ In this paper we will describe how to set up a test Tezos node and baker with th
 
 
 *The paper will describe infrastructure suitable for development use only. Although we will touch on some recommendations in the paper, if you wish to use an HSM in production, you will need to consider your own security model.*
+

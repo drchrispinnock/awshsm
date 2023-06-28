@@ -9,6 +9,7 @@
 - Single-tenant product
 - Remote Signer - Fabrice
 - Costs
+- Double Signing. Baking
 
 From previous abstract
 - Amazon Web Services offers a single-tenant HSM product 
@@ -18,5 +19,5 @@ From previous abstract
 
 ## 
 
-![Architecture Diagram (XXX replace)](img/TempArchDiagram.png)
+
 
