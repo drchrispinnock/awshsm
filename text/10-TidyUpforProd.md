@@ -14,15 +14,15 @@ A Key Ceremony is a predefined procedure where the passwords and keys are create
 
 Additionally the secrets can be "sharded" using SSSS XXX, printed off and put into secure envelopes. XXXX 4 of 7 etc
 
+![An Apple Mac, post key-ceremony](img/Apple_Mac_Post_Key_Ceremony.jpeg)
+
+The Key Ceremony is usually performed in a segregated environment using equipment bought specifically for the purpose. At the end of the ceremony, the equipment is destroyed in a shredder so that there is no chance the keys and passwords can be recovered from it.
+
 2. Protect the HSM and Remote Signer further by housing it in a separate AWS Account
 
 Without access to the Remote Signer and HSM, there is little harm that can be done to the system other than stopping the baker processes. The Remote Signer prevents any malicious operations.
 
 The VPCE and API Gateway implementation described also works between AWS accounts, meaning that the HSM and Remote Signer can sit in its own account. This account can have a different security policy for access. For example, the operators must ask an officer of the company for a 2FA secret.
-
-
-
-
 
 3. Protecting the baker by using "front nodes".
 
