@@ -4,7 +4,8 @@ OBJECTS=article.pdf
 all:	$(OBJECTS)
 
 article.inter: $(SOURCES)
-	@cat $(SOURCES) > article.inter
+	@rm -f article.inter
+	@for src in $(SOURCES); do cat $$src >> article.inter; echo "" >> article.inter; echo "" >> article.inter; done
 
 clean:
 	@rm -rf $(OBJECTS) article.inter
