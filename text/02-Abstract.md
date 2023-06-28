@@ -1,18 +1,6 @@
 # Abstract
 
-## Outline (remove)
+Tezos is a proof-of-stake blockchain [TEZOS] in which the participants, called Bakers, must stake part of their funds as a security bond against bad behaviour. The Baker must be able to sign transactions when new blocks are produced or when other blocks are verified. Consequently the Baker's secret cryptographic key must be available at all times to the Baking system. This key needs to be protected from unwanted access to avoid loss of funds. Small bakers can protect their key with a USB HSM such as Ledger, but where there is a high value of funds at risk, an enterprise-grade Hardware Security Module (HSM) is recommended. Amazon Web Services offer a single-tenant HSM product called CloudHSM [PRODUCT]. 
 
-XXX This needs to be refactored into a synopsis and material in the Introduction too.
-
-- Tezos is a proof-of-stake blockchain whereby a baker must stake their funds to provide a bond
-- XXX
-- The baker server must have access to the wallet key to sign transactions
-- A Hardware Security Module holds cryptographic keys and is able to perform signing operations.
-- Small bakers are able to protect their key with a USB HSM such as the Ledger
-- Some bakers choose to host their key on a separate system with a remote signer
-- For high value accounts, an enterprise grade HSM is recommended.
-- Amazon Web Services offers a single-tenant HSM product 
-- The single-tenancy is important because it guarantees that only the intended customer will be able to access the key
-- It is possible to use cheaper Key Management Systems (KMS) but the single-tenancy is not guaranteed. 
-- Where an organisation needs to be audited, there has to be certainty over access and thus a single-tenant service provides enough confidence.
+In this paper we will describe how to set up a test Tezos node and baker with the key protected by CloudHSM. The architecture is very similar to the recommended CloudHSM architecture where an API Gateway and VPC Endpoint governs access to the HSM. In our use case, we will incorporate a Remote Signer system that can interpret the Tezos signing requests and send them to the HSM. The Signer also protects against "Double-Signing" and other unwanted operations.
 
