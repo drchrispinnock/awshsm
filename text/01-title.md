@@ -1,7 +1,7 @@
 ---
 title: "Securing your Tezos baking key with Amazon CloudHSM"
 author: "Chris Pinnock and Fabrice Trutmann"
-date: "20230527"
+date: "20230628"
 titlepage: true
 toc-own-page: true
 titlepage-color: ffffff
