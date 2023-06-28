@@ -34,11 +34,5 @@ The Remote Signer has a protection mechanism to prevent double-signing and this 
 
 However we do not recommend running more than one baker instance. Although the Remote Signer will prevent double signing, the consequences of doing so are great in that the baker is penalised and will lose some of their stake. It is better to be down for a few minutes than to double sign.
 
-## Outline (Remove)
-
-- Protecting the baker (e.g. front nodes)
-- Key Ceremony
-- Password protection
-- Load balance the remote signer
 
 
