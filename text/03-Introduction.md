@@ -40,3 +40,12 @@ Octez
 Octez is the official client to interact with a Tezos node via RPC (remote procedural calls). Octez consists of several binaries (i.e., executable files), including a client, a node, and a baker. The command-line wallet tool is called “octez-client” (for Linux and macOS). No matter how you decide to run Octez, your node must have an accurate time source and be properly synchronized to it, e.g. by configuring an NTP daemon.
 
 
+# Tezos Remote Signer
+
+The Tezos remote signer is a Python Flask app that receives Tezos baking and endorsement payloads from the Tezos baking client and passes them on to a remote HSM to be signed. 
+
+This python flask can be installed on a Amazon Elastic Compute Cloud (Amazon EC2) that is hosted in the same Amazon Virtual Private Cloud (Amazon VPC) as the CloudHSM that signs the payloads. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
+
+Note that we have only tested it on AWS CloudHSM, which is based on the Cavium LiquidSecurity FIPS PCIe Card.
+
+
