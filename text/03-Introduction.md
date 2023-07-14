@@ -35,5 +35,8 @@ When an organization requires auditing, it becomes crucial to have certainty ove
 
 (delete if not needed) Tezos holders who don't meet the minimum requirement of 6,000 tez or prefer not to set up their own infrastructure can delegate their coins to a baker. Delegating allows coin holders to lend their coins to a baker, increasing the chances of the baker being selected to create and endorse blocks. Bakers share the additional revenue generated from the delegated tokens with the delegators, without gaining control or ownership of the coins, ensuring the safety of the delegators' funds.
 
+Octez
+
+Octez is the official client to interact with a Tezos node via RPC (remote procedural calls). Octez consists of several binaries (i.e., executable files), including a client, a node, and a baker. The command-line wallet tool is called “octez-client” (for Linux and macOS). No matter how you decide to run Octez, your node must have an accurate time source and be properly synchronized to it, e.g. by configuring an NTP daemon.
 
 
