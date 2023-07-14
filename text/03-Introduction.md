@@ -17,7 +17,7 @@ From previous abstract
 - It is possible to use cheaper Key Management Systems (KMS) but the single-tenancy is not guaranteed. 
 - Where an organisation needs to be audited, there has to be certainty over access and thus a single-tenant service provides enough confidence.
 
-## 
+# Tezos 
 Tezos uses Liquid Proof of Stake to achieve consensus. The creators of the next block are called bakers. One of them is chosen at random by all bakers, based on the number of Tez (XTZ) locked. In this process, the baker server must have access to the wallet private key in order to sign transactions. 
 
 In order to discourage dishonest actions like double baking or double endorsement, every baker is required to deposit a set amount of Tez as a security deposit for a specific period (five cycles). If a baker tries to undermine the integrity of the chain, their deposit will be confiscated as a penalty. This measure acts as a deterrent against malicious behavior within the Tezos network.
@@ -35,7 +35,7 @@ When an organization requires auditing, it becomes crucial to have certainty ove
 
 (delete if not needed) Tezos holders who don't meet the minimum requirement of 6,000 tez or prefer not to set up their own infrastructure can delegate their coins to a baker. Delegating allows coin holders to lend their coins to a baker, increasing the chances of the baker being selected to create and endorse blocks. Bakers share the additional revenue generated from the delegated tokens with the delegators, without gaining control or ownership of the coins, ensuring the safety of the delegators' funds.
 
-Octez
+# Octez
 
 Octez is the official client to interact with a Tezos node via RPC (remote procedural calls). Octez consists of several binaries (i.e., executable files), including a client, a node, and a baker. The command-line wallet tool is called “octez-client” (for Linux and macOS). No matter how you decide to run Octez, your node must have an accurate time source and be properly synchronized to it, e.g. by configuring an NTP daemon.
 
